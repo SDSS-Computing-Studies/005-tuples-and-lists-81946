@@ -19,3 +19,12 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+
+lists= ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
+
+print(lists)
+word1= input("Please enter word from list")
+word2= input("Please enter word from list")
+
+lists.insert(word1, word2)
+print(lists)

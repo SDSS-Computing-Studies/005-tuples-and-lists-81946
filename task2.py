@@ -23,3 +23,19 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+emptylist= []
+
+word0= input("Enter a word: ")
+word1= input("Enter another word: ")
+word2= input("Enter one more word: ")
+word3= input("Enter another word: ")
+word4= input("Enter one last word: ")
+
+emptylist.insert(0, word0)
+emptylist.insert(1, word1)
+emptylist.insert(2, word2)
+emptylist.insert(3, word3)
+emptylist.insert(4, word4)
+
+print(emptylist)
