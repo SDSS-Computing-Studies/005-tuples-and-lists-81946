@@ -20,11 +20,16 @@ Enter the replacement:Dan
 
 """
 
-lists= ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
+lists= ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
 print(lists)
-word1= input("Please enter word from list")
-word2= input("Please enter word from list")
+word1= input("Choose a person from the list to replace: ")
+word2= input("Enter the replacement: ")
 
-lists.insert(word1, word2)
+whereword1 = lists.index(word1)
+
+lists.remove(word1)
+
+lists.insert(whereword1, word2)
+
 print(lists)
