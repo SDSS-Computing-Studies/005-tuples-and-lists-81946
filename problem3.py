@@ -107,19 +107,19 @@ lists.sort()
 print(lists)
 
 if a==1:
-    print("The largest number you entered is" + ' '+ lists)
+    print("The largest number you entered is" + ' '+ str(lists))
 if a==2:
-    print("The largest number you entered is" + ' '+ lists[0] )
+    print("The largest number you entered is" + ' '+ str(lists[0]) )
 if a==3:
-    print("The largest number you entered is" + ' '+ lists[1] )
+    print("The largest number you entered is" + ' '+ str(lists[1]) )
 if a==4:
-    print("The largest number you entered is" + ' '+ lists[2] )
+    print("The largest number you entered is" + ' '+ str(lists[2]) )
 if a==5:
-    print("The largest number you entered is" + ' '+ lists[3] )
+    print("The largest number you entered is" + ' '+ str(lists[3]) )
 if a==6:
-    print("The largest number you entered is" + ' '+ lists[4] )
+    print("The largest number you entered is" + ' '+ str(lists[4]) )
 if a==7:
-    print("The largest number you entered is" + ' '+ lists[5] )
+    print("The largest number you entered is" + ' '+ str(lists[5]) )
 if a==8:
-    print("The largest number you entered is" + ' '+ lists[6] )
+    print("The largest number you entered is" + ' '+ str(lists[6]) )
 
