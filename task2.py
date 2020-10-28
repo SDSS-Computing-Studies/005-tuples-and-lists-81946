@@ -26,11 +26,11 @@ Enter a word: virus
 
 emptylist= []
 
-word0= input("Enter a word: ")
-word1= input("Enter another word: ")
-word2= input("Enter one more word: ")
-word3= input("Enter another word: ")
-word4= input("Enter one last word: ")
+word0= input("Enter a word: ").strip()
+word1= input("Enter another word: ").strip()
+word2= input("Enter one more word: ").strip()
+word3= input("Enter another word: ").strip()
+word4= input("Enter one last word: ").strip()
 
 emptylist.insert(0, word0)
 emptylist.insert(1, word1)
