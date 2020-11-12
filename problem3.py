@@ -5,6 +5,12 @@ After each entry, add the number to a list
 If the entry is -1 then stop adding numbers to the list
 Sort the list and display the highest number added
 
+
+incorporate a while loop:
+keep doing something until the entry is -1
+add the new entry to a list
+
+
 inputs:
 as many integers as needed
 
@@ -24,102 +30,20 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 lists= []
-a=1
+x=1
 
+while x>0:
+    x= input("Enter an integer: ")
+    x= int(x)
+    if x<0:
+        lists.sort()
+        print("The largest number you entered is" + ' ' + str(lists[-1]))
 
-one= input("Enter an integer: ")
-one= int(one)
-if one>0:
-    lists.append(one)
-    a=a+1
-
-
-
-
-
-if a==2:
-    two= input("Enter an integer: ")
-    two= int(two)
-    if two>0:
-        lists.append(two)
-        a=a+1
+        
+    if x>0:
+        lists.append(x)
+        print(lists)
 
 
 
-if a==3:
-    three= input("Enter an integer: ")
-    three= int(three)
-    if three>0:
-        lists.append(three)
-        a=a+1
-
-
-
-if a==4:
-    four= input("Enter an integer: ")
-    four= int(four)
-    if four>0:
-        lists.append(four)
-        a=a+1
-   
-
-
-if a==5:
-    five= input("Enter an integer: ")
-    five= int(five)
-    if five>0:
-        lists.append(five)
-        a=a+1
-
-
-
-if a==6:
-    six= input("Enter an integer: ")
-    six= int(six)
-    if six>0:
-        lists.append(six)
-        a=a+1
-
-
-
-if a==7:
-    seven= input("Enter an integer: ")
-    seven= int(seven)
-    if seven>0:
-        lists.append(seven)
-        a=a+1
-
-  
-
-if a==8:
-    eight= input("Enter an integer: ")
-    eight= int(eight)
-    if eight>0:
-        lists.append(eight)
-        a=a+1
-
-
-
-
-
-
-lists.sort()
-print(lists)
-
-if a==1:
-    print("The largest number you entered is 0")
-if a==2:
-    print("The largest number you entered is" + ' '+ str(lists[0]) )
-if a==3:
-    print("The largest number you entered is" + ' '+ str(lists[1]) )
-if a==4:
-    print("The largest number you entered is" + ' '+ str(lists[2]) )
-if a==5:
-    print("The largest number you entered is" + ' '+ str(lists[3]) )
-if a==6:
-    print("The largest number you entered is" + ' '+ str(lists[4]) )
-if a==7:
-    print("The largest number you entered is" + ' '+ str(lists[5]) )
-if a==8:
-    print("The largest number you entered is" + ' '+ str(lists[6]) )
 

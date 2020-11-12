@@ -23,8 +23,8 @@ Enter the replacement:Dan
 lists= ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
 print(lists)
-word1= input("Choose a person from the list to replace: ")
-word2= input("Enter the replacement: ")
+word1= input("Choose a person from the list to replace: ").strip()
+word2= input("Enter the replacement: ").strip()
 
 whereword1 = lists.index(word1)
 
