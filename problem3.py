@@ -107,7 +107,7 @@ lists.sort()
 print(lists)
 
 if a==1:
-    print("The largest number you entered is" + ' '+ str(lists))
+    print("The largest number you entered is 0")
 if a==2:
     print("The largest number you entered is" + ' '+ str(lists[0]) )
 if a==3:
