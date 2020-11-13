@@ -32,17 +32,18 @@ The largest number you entered is 92
 lists= []
 x=1
 
-while x>0:
+while x>=0:
     x= input("Enter an integer: ")
     x= int(x)
     if x<0:
         lists.sort()
         print("The largest number you entered is" + ' ' + str(lists[-1]))
 
-        
+
     if x>0:
         lists.append(x)
         print(lists)
+
 
 
 
